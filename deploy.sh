@@ -17,6 +17,6 @@ git add -A
 git commit -m 'Deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/zoudingyi/manage-system-docs.git main:gh-pages
+git push -f https://github.com/zoudingyi/manage-system-docs.git master:gh-pages
 
 cd -

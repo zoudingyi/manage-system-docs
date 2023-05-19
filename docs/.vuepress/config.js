@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/manage-system-docs/",
   title: "Vue3 System Template",
   description: "基于RuoYi系统二次开发的管理系统模板开发文档",
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
