@@ -12,6 +12,25 @@ module.exports = {
         link: "https://github.com/zoudingyi/RuoYi-Vue3",
       },
     ],
-    sidebar: "auto",
+    lastUpdated: 'Last Updated',
+    sidebar: [
+      {
+        title: "开始",
+        collapsable: false,
+        children: [
+          ["/guide/", "简介"],
+          ["/guide/login/", "登录"],
+          ["/guide/permission/", "权限配置"],
+          ["/guide/common/", "通用方法"],
+          ["/guide/component/", "基础组件"],
+          ["/guide/hooks/", "常用hooks"],
+        ],
+      },
+      {
+        title: "其他",
+        collapsable: false,
+        children: [],
+      },
+    ],
   },
 };
